@@ -1,0 +1,39 @@
+{
+  "name": "webcrawler",
+  "version": "1.0.0",
+  "description": "nodejs Web crawler",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/acodeguru/web-crawler.git"
+  },
+  "keywords": [
+    "nodejs",
+    "web",
+    "webcrawler",
+    "crawler",
+    "web",
+    "crawler"
+  ],
+  "author": "acodeguru",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/acodeguru/web-crawler/issues"
+  },
+  "homepage": "https://github.com/acodeguru/web-crawler#readme",
+  "dependencies": {
+    "axios": "^0.21.1",
+    "cheerio": "^1.0.0-rc.10",
+    "dotenv": "^10.0.0",
+    "fs": "0.0.1-security",
+    "mysql2": "^2.3.0",
+    "nodemon": "^2.0.12",
+    "readline": "^1.3.0",
+    "sequelize": "^6.6.5",
+    "valid-url": "^1.0.9"
+  }
+}
