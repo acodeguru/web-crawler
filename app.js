@@ -84,9 +84,9 @@ rl.question(`Please add urls as examples provided below (with comma separated va
 
                     // store the details in another output file
                     fs.appendFile(process.env.OUTPUTFILE, 
-                        url_list[url_list_index]+"\n "+
-                        website_locations.join(',')+"\n "+
-                        website_keywords.join(',')+"\n "+
+                        "URL : "+url_list[url_list_index]+"\n "+
+                        "Locations : "+website_locations.join(',')+"\n "+
+                        "Keywords : "+website_keywords.join(',')+"\n "+
                         "======================================================\n "
                     , function (err) {
                         if (err) throw err;
